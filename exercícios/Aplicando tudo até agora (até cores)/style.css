@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    /* Para eu conseguir mudar apenas o Background apenas da página 3 eu tive que criar a hastag aleatória "#dasd" dentro do body da pág que eu quis alterar, configurar o width, height e colocar a cor que eu queria no background, depois fui na tag global "*" e coloquei o padding e o margin no 0 para preencher para ficar a cor na medida, sem falhar ! */
+    padding: 0; 
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #7FFFD4, hwb(120 1% 51%) );
+
+}
+
+#dasd {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 0, 0) !important; 
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: darkturquoise;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2{
+    color: crimson;
+    text-shadow: 1px 1px 1px black;
+}
+p{
+    text-align: justify;
+
+}
