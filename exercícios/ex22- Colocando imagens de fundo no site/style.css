@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("imagens/wallpaper001.jpg");
+}
+
+div {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+}
+
+div#d1{
+    background-color: aquamarine;
+    
+}
+
+div#d2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#d3{
+    background-image: url("imagens/pattern001.png");
+}
