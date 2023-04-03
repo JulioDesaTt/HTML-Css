@@ -1,7 +1,81 @@
 @charset "UTF-8";
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --fonte1: 'Passion One', cursive;
+    --fonte2:  'Sriracha', cursive;
+    --fonte3: 'Playfair Display', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+html, body{
+    min-height: 100%;
+    background-color: rgb(255, 171, 171);
+    
+}
+
+header{
     background-color: black;
-    height: 100px;
     color: white;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: var(--fonte1);
+}
+
+.sub{
+    font-family: var(--fonte3);
+    font-size: medium;
+}
+
+
+.sec1{
+    background-color: white;
+    color: black;
+
+}
+
+.p1{
+    background-color: white;
+}
+
+
+section{
+    background-color: rgb(252, 200, 252);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    color: white;
+
+}
+
+section > p{
+    background-color: rgb(0, 0, 0);
+    font-family: var(--fonte2);
+    width: 330px;
+    
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
