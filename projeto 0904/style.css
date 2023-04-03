@@ -20,7 +20,10 @@
 
 html, body{
     min-height: 100%;
-    background-color: rgb(255, 171, 171);
+    background-color: rgb(255, 188, 188);
+    margin-left: 30px;
+    margin-right: 30px;
+    
     
 }
 
@@ -44,29 +47,73 @@ header > h1{
 
 
 .sec1{
-    background-color: white;
-    color: black;
+    
+    background: no-repeat;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 188, 188);
+   
 
 }
 
 .p1{
-    background-color: white;
+    background-color: rgb(255, 188, 188);
+    text-shadow: 2px;
+    text-align: left;
 }
 
 
+.poema{
+    text-align: center;
+    font-family: var(--fonte3);
+}
+
+.prpo{
+    font-family: var(--fonte1);
+    text-align: center;
+}
+
+
+
 section{
-    background-color: rgb(252, 200, 252);
+    background-color: rgb(255, 255, 255);
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-left: 30vh;
     color: white;
+}
+
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+    padding: 5px;
+    width: 900px;
+    
+
+}
+
+section#img2{
+    background-image: url(imagens/amorOfc.jpeg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: inline-block;
+    padding: 65px;
+    max-height: 510px;
+   width: 1000px;
+    
+    
+    
 
 }
 
 section > p{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.205);
     font-family: var(--fonte2);
-    width: 330px;
+    width: 428px;
+    text-align: center;
     
 }
 
